@@ -41,7 +41,6 @@ RUN playwright install-deps chromium
 
 # Copy application code
 COPY ./app ./app
-COPY .env .env
 
 # Create downloads directory
 RUN mkdir -p /app/downloads
